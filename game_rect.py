@@ -28,7 +28,7 @@ while running:
                 running = False
             if event.key == K_SPACE:
                 print("space")
-            if event.key == K_UP:
+            if event.key == K_UP:  
                 x += 100
                 screen.blit(player.surf, (x, 300))
                 pygame.display.flip()
